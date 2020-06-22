@@ -1,0 +1,20 @@
+.client {
+  border-radius: 5px;
+  border: 2px solid rgba(69, 193, 226, 0.42);
+  margin: 5px 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: all 0.125s ease-in-out;
+  font-size: 16px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  &.client_selected {
+    background: rgba(69, 193, 226, 0.50);;
+  }
+
+  &:hover {
+    background-color: rgba(69, 193, 226, 0.18);
+  }
+}

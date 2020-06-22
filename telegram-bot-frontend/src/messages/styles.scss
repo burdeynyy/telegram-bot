@@ -1,0 +1,61 @@
+.messages {
+  border: 1px solid rgba(145, 145, 145, 0.56);
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 5px;
+
+  &__content {
+    background-color: rgba(0, 223, 226, 0.05);
+    height: calc(100vh - 140px);
+    overflow-y: scroll;
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: 1px solid rgba(145, 145, 145, 0.56);
+  }
+
+  &__load {
+
+    text-align: center;
+    font-size: 16px;
+    color: #0056b3;
+    cursor: pointer;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.send-message-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  &__button {
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+    transition: background-color .5s ease-in-out;
+    min-height: 50px;
+    width: 100%;
+    &:hover {
+      background-color: rgba(145, 145, 145, 0.25);
+    }
+  }
+
+  &__content {
+    width: 100%;
+    min-height: 50px;
+    border-radius: 5px;
+    padding: 5px;
+    font-style: italic;
+    font-weight: 500;
+  }
+}
+

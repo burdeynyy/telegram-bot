@@ -1,0 +1,15 @@
+.clients {
+  &__header {
+    margin: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  &__title {
+    font-size: 18px;
+    font-weight: bold;
+
+  }
+}

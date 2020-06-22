@@ -1,0 +1,3 @@
+export enum CLIENTS_ACTION_CONSTANTS {
+    SET_CLIENTS = 'SET_CLIENTS',
+}
