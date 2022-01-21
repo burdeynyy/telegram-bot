@@ -22,7 +22,7 @@
         <frontend.plugin.version>1.10.0</frontend.plugin.version>
         <antrun.plugin.version>3.0.0</antrun.plugin.version>
         <telegram.api.version>4.8.1</telegram.api.version>
-        <h2.version>1.4.197</h2.version>
+        <h2.version>2.1.210</h2.version>
     </properties>
 
     <parent>
